@@ -22,3 +22,7 @@ img {
 button {
     display: block;
 }
+
+svg {
+  display: block;
+}
