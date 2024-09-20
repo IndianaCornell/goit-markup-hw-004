@@ -44,9 +44,7 @@ button input a {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-  box-shadow: 0px 1px 1px 0px rgba(46, 47, 66, 0.16);
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header > .container {
@@ -112,7 +110,7 @@ button input a {
 .header-nav-item-link.current::after {
   content: '';
   position: absolute;
-  bottom: -1px;
+  bottom:-1px;
   left: 0;
 
   display: block;
@@ -242,6 +240,7 @@ button input a {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 4px;
   background: rgba(244, 244, 253, 1);
   border: 1px solid rgba(142, 143, 153, 1);
   height: 112px;
@@ -418,9 +417,7 @@ button input a {
 }
 
 .portfolio-item:hover {
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
-  box-shadow: 0px 1px 1px 0px rgba(46, 47, 66, 0.16);
-  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-desc-section {
@@ -455,6 +452,11 @@ button input a {
   background-color: var(--dark-section-color);
 }
 
+.footer-join-us-con{ 
+  margin-right: 120px;
+}
+
+
 .footer-logo {
   display: inline-block;
   font-family: 'Raleway', sans-serif;
@@ -483,13 +485,12 @@ button input a {
 
 .footer > .container {
   display: flex;
-  gap: 120px;
 }
 
 .footer-soc-title {
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.6;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 
   color: var(--main-title-and-background-color);
